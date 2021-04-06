@@ -47,5 +47,7 @@ public class CreatingPerson : MonoBehaviour
     World.pessoa.Name = name_txt.text;
     World.pessoa.Course = course_txt.text;
     World.pessoa.Insti = insti_txt.text;
+    Debug.Log("Pessoa Criada!");
+    Debug.Log(World.pessoa.Name);
   }
 }
