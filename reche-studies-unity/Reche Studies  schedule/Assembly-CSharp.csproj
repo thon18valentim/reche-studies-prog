@@ -57,11 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\World.cs" />
-    <Compile Include="Assets\Scripts\Person.cs" />
-    <Compile Include="Assets\Scripts\CreatingPerson.cs" />
-    <Compile Include="Assets\Scripts\CreatingWeek.cs" />
     <Compile Include="Assets\Scripts\Week.cs" />
+    <Compile Include="Assets\Scripts\CreatingWeek.cs" />
+    <Compile Include="Assets\Scripts\Person.cs" />
     <Compile Include="Assets\Scripts\CreatingHours.cs" />
+    <Compile Include="Assets\Scripts\CreatingPerson.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\ScheduleManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

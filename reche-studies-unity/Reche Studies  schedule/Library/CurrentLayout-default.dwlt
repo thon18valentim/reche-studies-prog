@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1457.6
     height: 820.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1458
     height: 821
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1458
     height: 771
-  m_MinSize: {x: 680, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
+  m_MinSize: {x: 678, y: 471}
+  m_MaxSize: {x: 14000, y: 14021}
   vertical: 0
-  controlID: 22153
+  controlID: 8396
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1161.6
     height: 771
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 403, y: 471}
+  m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 22088
+  controlID: 8397
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 22089
+  controlID: 8398
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,9 +397,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: e4400000
       m_LastClickedID: 0
-      m_ExpandedIDs: 1ec3ffff6ec3ffff28d5ffff04d9ffff52d9ffff78d9ffffccd9ffff5adaffff02e0ffffeae1ffffd8e2ffff52e7ffff6ae7ffff7ce7ffff94e7ffffa6e7fffffef9ffff5efaffff70faffff82faffff40fbffff344100008a5e0000165f00007c64000092640000bc65000048660000d6690000ec690000c0700000027300000e78000060840000
+      m_ExpandedIDs: 64e2ffff98e7ffffbceaffff3eebffffd6ebffff64edffff56efffffdcf2ffffbef3fffffaf3ffff44f4ffff58f4ffff76f4ffffacf4ffffecf4ffff00f5ffff78f9ffff40fbffff424100004c4f00003650000050540000ba5600001e5a00000c5d0000625e0000266e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -415,7 +415,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 10}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 602.93854, y: 430.24228, z: -293.01074}
+    m_Target: {x: 580.6442, y: 403.72702, z: -433.77606}
     speed: 2
-    m_Value: {x: 602.93854, y: 430.24228, z: -293.01074}
+    m_Value: {x: 580.6442, y: 403.72702, z: -433.77606}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -512,9 +512,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 474.82095
+    m_Target: 515.89685
     speed: 2
-    m_Value: 474.82095
+    m_Value: 515.89685
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -602,13 +602,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Creating-User
+    - Assets/Scenes/Main-menu
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Creating-User
+  - Assets/Scenes/Main-menu
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\othon\OneDrive\Documentos\OTHON\PROJETOS\APLICATIVOS\Reche-Studies\reche-studies-prog\reche-studies-unity\Reche
     Studies  schedule
@@ -616,9 +616,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa400000
-    m_LastClickedID: 16554
-    m_ExpandedIDs: 000000009e400000a440000000ca9a3b
+    m_SelectedIDs: b4400000
+    m_LastClickedID: 16564
+    m_ExpandedIDs: 00000000a6400000ac40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -646,7 +646,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e40000000ca9a3b
+    m_ExpandedIDs: 00000000a640000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -759,7 +759,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 456
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0

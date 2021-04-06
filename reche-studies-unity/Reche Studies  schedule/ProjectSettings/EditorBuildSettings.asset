@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main-menu/Main-menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Creating-User/Informations.unity
+    guid: 4e5b3f4cabd78fc41a42d712e901a0f2
+  - enabled: 1
+    path: Assets/Scenes/Creating-User/CheckWeek.unity
+    guid: 7daa2be3bdc48c548934527b212db6af
+  - enabled: 1
+    path: Assets/Scenes/Creating-User/WeekHours.unity
+    guid: eae7f02efec26c847b64fdb1c817ff30
+  - enabled: 1
+    path: Assets/Scenes/Schedule/MainScene.unity
+    guid: 342fce7900e5c794aa124de68af85d4e
   m_configObjects: {}
