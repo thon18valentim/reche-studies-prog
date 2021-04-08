@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Creating-User/WeekHours.unity
     guid: eae7f02efec26c847b64fdb1c817ff30
   - enabled: 1
+    path: Assets/Scenes/Creating-User/LoadUser.unity
+    guid: 0ad7c190003b48e4080671456c678c65
+  - enabled: 1
     path: Assets/Scenes/Schedule/MainScene.unity
     guid: 342fce7900e5c794aa124de68af85d4e
   m_configObjects: {}

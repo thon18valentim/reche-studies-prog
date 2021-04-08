@@ -12,6 +12,7 @@ public class ScheduleManager : MonoBehaviour
     void Start()
     {
     user_name_txt.text = World.pessoa.GetName();
+    //Debug.Log(System.Environment.CurrentDirectory);
     }
 
     // Update is called once per frame
@@ -19,4 +20,8 @@ public class ScheduleManager : MonoBehaviour
     {
         
     }
+  public void OpenCheckList()
+  {
+    Application.OpenURL(System.Environment.CurrentDirectory + "/CRONOGRAMA_ENEM 2021.pdf");
+  }
 }

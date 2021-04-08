@@ -57,16 +57,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\World.cs" />
-    <Compile Include="Assets\Scripts\Week.cs" />
+    <Compile Include="Assets\Scripts\Root\Week.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\CreatingWeek.cs" />
-    <Compile Include="Assets\Scripts\Person.cs" />
+    <Compile Include="Assets\Scripts\ScheduleManager.cs" />
+    <Compile Include="Assets\Scripts\Root\Person.cs" />
     <Compile Include="Assets\Scripts\CreatingHours.cs" />
     <Compile Include="Assets\Scripts\CreatingPerson.cs" />
-    <Compile Include="Assets\Scripts\SceneLoader.cs" />
-    <Compile Include="Assets\Scripts\ScheduleManager.cs" />
+    <Compile Include="Assets\Scripts\CreatingSchedule.cs" />
+    <Compile Include="Assets\Scripts\Root\Subject.cs" />
+    <Compile Include="Assets\Scripts\Root\Content.cs" />
+    <Compile Include="Assets\Scripts\Root\User.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\Fonts\Big_Shoulders_Display\OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
