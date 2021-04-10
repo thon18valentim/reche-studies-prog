@@ -15,11 +15,6 @@ namespace Assets.Scripts
     {
       Id = id;
       Name = name;
-      foreach(Content cont in content_list)
-      {
-        Content_list.Add(cont);
-        Count_content++;
-      }
     }
   }
 }

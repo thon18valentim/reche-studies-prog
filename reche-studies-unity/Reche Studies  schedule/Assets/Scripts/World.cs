@@ -11,9 +11,13 @@ public class World : MonoBehaviour
 
   public static Subject cHumans;
   public static Subject cNature;
+  public static Subject cMath;
+  public static Subject cLanguages;
 
   public static List<Content> cont_cHumans = new List<Content>();
   public static List<Content> cont_cNature = new List<Content>();
+  public static List<Content> cont_Math = new List<Content>();
+  public static List<Content> cont_Languages = new List<Content>();
 
   static World()
   {
@@ -22,6 +26,9 @@ public class World : MonoBehaviour
     PopulatingUser();
     PopulatingCHumans();
     PopulatingCNature();
+    PopulatingCMath();
+    PopulatingLanguages();
+    PopulatingSubjects();
   }
 
   public static void PopulatingPerson()
@@ -36,11 +43,13 @@ public class World : MonoBehaviour
   {
     cHumans = new Subject(1,"Ciências Humanas",cont_cHumans);
     cNature = new Subject(2, "Ciências da Natureza",cont_cNature);
+    cMath = new Subject(3, "Matemática e suas Tecnologias",cont_Math);
+    cLanguages = new Subject(4, "Linguagens, Códigos e suas Tecnologias",cont_Languages);
   }
 
   public static void PopulatingUser()
   {
-    usuario = new User(pessoa, week, 1);
+    usuario = new User(pessoa, week, 1, 86);
   }
 
   public static void PopulatingCHumans()
@@ -91,5 +100,62 @@ public class World : MonoBehaviour
     cont_cNature.Add(new Content(1, "Biologia", "Células Procariontes e Eucariontes",2));
     cont_cNature.Add(new Content(1, "Biologia", "Estrutura Química e o Metabolismo Celular", 2));
     cont_cNature.Add(new Content(1, "Biologia", "Membrana Plasmática", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Permeabilidade Seletiva", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Organelas", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Respiração Aeróbica", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Fermentação", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "DNA e RNA", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Mitose e Meiose", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Descartes", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Classificação dos Seres Vivos", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Filogenia", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Nomenclaturas", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Reino Monera", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Reino Fungi", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Reino Protista", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Fotossíntese", 2));
+    cont_cNature.Add(new Content(1, "Biologia", "Algas", 2));
+  }
+  public static void PopulatingCMath()
+  {
+    cont_Math.Add(new Content(1, "Matemática", "Conjuntos Numéricos", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Expressões Numéricas", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Potências", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Equações", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Inequações", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Teoria dos Conjuntos", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Funções: Função Linear", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Tipos de Função", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Função Quadrática", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Grandezas Proporcionais: Porcentagem", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Funções Exponenciais: Funções Logarítmicas", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Progressões", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Análise Combinatória, Permutações, Arranjos, Combinação Simples", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Probabilidade", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Matrizes", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Sistema de Equações Lineares", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Trigonometria", 2));
+    cont_Math.Add(new Content(1, "Matemática", "Geometria Analítica", 2));
+  }
+  public static void PopulatingLanguages()
+  {
+    cont_Languages.Add(new Content(1, "Português", "Fonética e Fonologia", 2));
+    cont_Languages.Add(new Content(1, "Português", "Acentuação Gráfica", 2));
+    cont_Languages.Add(new Content(1, "Português", "Significação das Palavras", 2));
+    cont_Languages.Add(new Content(1, "Português", "Estrutura e Formação das Palavras", 2));
+    cont_Languages.Add(new Content(1, "Português", "Pronomes", 2));
+    cont_Languages.Add(new Content(1, "Português", "Conjunções", 2));
+    cont_Languages.Add(new Content(1, "Português", "Interjeição", 2));
+    cont_Languages.Add(new Content(1, "Português", "Sujeito e Predicado", 2));
+    cont_Languages.Add(new Content(1, "Português", "Adjunto Adnominal/Adverbial/ Aposto e Vocativo", 2));
+    cont_Languages.Add(new Content(1, "Português", "Orações Coordenadas", 2));
+    cont_Languages.Add(new Content(1, "Português", "Orações Subordinadas", 2));
+    cont_Languages.Add(new Content(1, "Português", "Pontuação", 2));
+    cont_Languages.Add(new Content(1, "Português", "Figuras de Linguagem", 2));
+    cont_Languages.Add(new Content(2, "Literatura", "Classicismo", 2));
+    cont_Languages.Add(new Content(2, "Literatura", "Quinhentismo", 2));
+    cont_Languages.Add(new Content(2, "Literatura", "Barroco", 2));
+    cont_Languages.Add(new Content(2, "Literatura", "Arcadismo", 2));
+    cont_Languages.Add(new Content(2, "Literatura", "Romantismo no Brasil", 2));
   }
 }
