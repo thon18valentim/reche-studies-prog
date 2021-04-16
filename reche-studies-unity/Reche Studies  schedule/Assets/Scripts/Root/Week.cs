@@ -5,6 +5,7 @@ using System;
 
 namespace Assets.Scripts
 {
+  [Serializable]
   public class Week
   {
     public bool Monday { get; set; }

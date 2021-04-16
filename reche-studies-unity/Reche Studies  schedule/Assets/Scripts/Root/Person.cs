@@ -5,6 +5,7 @@ using System;
 
 namespace Assets.Scripts
 {
+  [Serializable]
   public class Person
   {
     public string Name { get; set; }
