@@ -8,9 +8,9 @@ using TMPro;
 public class CreatingPerson : MonoBehaviour
 {
   // Getting Input Fields
-  public InputField name_input;
-  public InputField course_input;
-  public InputField insti_input;
+  public TMP_InputField name_input;
+  public TMP_InputField course_input;
+  public TMP_InputField insti_input;
 
   // Creating Aux Var
   public TextMeshProUGUI name_txt;

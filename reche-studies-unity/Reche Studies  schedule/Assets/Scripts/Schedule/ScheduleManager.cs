@@ -10,8 +10,10 @@ public class ScheduleManager : MonoBehaviour
   // Checklist Modal 
   public GameObject checklist_modal;
   public GameObject slots_modal;
+  public GameObject slots_modal_delete;
 
   public GameObject message_text;
+  public GameObject message2_text;
 
   public TextMeshProUGUI user_name_txt;
 
@@ -58,6 +60,12 @@ public class ScheduleManager : MonoBehaviour
     {
         
     }
+
+  public void OpenInstagram()
+  {
+    Application.OpenURL("https://www.instagram.com/reche.studies/");
+  }
+
   public void OpenCheckList(int i)
   {
     if(i == 1)
@@ -107,6 +115,56 @@ public class ScheduleManager : MonoBehaviour
       Debug.Log("Checklist não existe, favor criar!");
     }
     
+  }
+
+  public void DeleteCheckList(int i)
+  {
+    if (i == 1)
+    {
+      if (File.Exists(System.Environment.CurrentDirectory + "/Cronograma/CRONOGRAMA_ENEM 2021(1).pdf"))
+      {
+        message2_text.SetActive(false);
+        File.Delete(System.Environment.CurrentDirectory + "/Cronograma/CRONOGRAMA_ENEM 2021(1).pdf");
+      }
+      else
+      {
+        message2_text.SetActive(true);
+        Debug.Log("Checklist não existe, favor criar!");
+      }
+    }
+    else if (i == 2)
+    {
+      if (File.Exists(System.Environment.CurrentDirectory + "/Cronograma/CRONOGRAMA_ENEM 2021(2).pdf"))
+      {
+        message2_text.SetActive(false);
+        File.Delete(System.Environment.CurrentDirectory + "/Cronograma/CRONOGRAMA_ENEM 2021(2).pdf");
+      }
+      else
+      {
+        message2_text.SetActive(true);
+        Debug.Log("Checklist não existe, favor criar!");
+      }
+
+    }
+    else if (i == 3)
+    {
+      if (File.Exists(System.Environment.CurrentDirectory + "/Cronograma/CRONOGRAMA_ENEM 2021(3).pdf"))
+      {
+        message2_text.SetActive(false);
+        File.Delete(System.Environment.CurrentDirectory + "/Cronograma/CRONOGRAMA_ENEM 2021(3).pdf");
+      }
+      else
+      {
+        message2_text.SetActive(true);
+        Debug.Log("Checklist não existe, favor criar!");
+      }
+
+    }
+    else
+    {
+      message2_text.SetActive(true);
+      Debug.Log("Checklist não existe, favor criar!");
+    }
   }
 
   public void SetAuxiliar()
@@ -427,11 +485,23 @@ public class ScheduleManager : MonoBehaviour
     slots_modal.SetActive(false);
     message_text.SetActive(false);
     slots_modal.SetActive(false);
+    slots_modal_delete.SetActive(false);
   }
 
   public void Open_modal_slots()
   {
     slots_modal.SetActive(true);
+    slots_modal_delete.SetActive(false);
+    message_text.SetActive(false);
+    message2_text.SetActive(false);
+  }
+
+  public void Open_modal_slots2()
+  {
+    slots_modal.SetActive(false);
+    slots_modal_delete.SetActive(true);
+    message_text.SetActive(false);
+    message2_text.SetActive(false);
   }
 
   public void Create_checklist()
@@ -441,6 +511,8 @@ public class ScheduleManager : MonoBehaviour
       World.usuario.Checklists++;
       File.Copy(System.Environment.CurrentDirectory + "/Cronograma/CRONOGRAMA_ENEM 2021.pdf", System.Environment.CurrentDirectory + "/Cronograma/CRONOGRAMA_ENEM 2021("+World.usuario.Checklists.ToString()+").pdf");
       Debug.Log("Checklist Criado");
+      message_text.SetActive(false);
+      message2_text.SetActive(false);
     }
     else
     {
